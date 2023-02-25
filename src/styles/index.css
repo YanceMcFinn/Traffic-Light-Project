@@ -1,4 +1,65 @@
+body {
+    background-image:  ;
+}
 
+#trafficTop {
+    background-color: black;
+    width: 10px;
+    height: 70px;
+    margin: auto;
+}
+
+#mainLight {
+    background-color: black;
+    width: 65px;
+    margin: auto;
+    padding: 7px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.light {
+    width: 50px;
+    height: 50px;
+    margin:  3px auto;
+    border-radius: 50%;
+    padding: 4px;
+    cursor: pointer;
+}
+.red {
+    background-color: #990000;
+}
+.yellow {
+    background-color: #ea9708;
+}
+.green {background-color: #009933;}
+
+.purple {
+    background-color: #6d11b8;
+    display: none; 
+}
+
+.selectedRed{box-shadow: #fc3835 0px 0px 40px 15px;}
+.selectedYellow{box-shadow: #fbb608 0px 0px 40px 15px;}
+.selectedGreen{box-shadow: #2db024 0px 0px 40px 15px;}
+.selectedPurple{box-shadow: #ea58fe 0px 0px 40px 15px;}
+
+
+#buttonContainer {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.purpsButton {
+    margin: 0px 3px;
+    border-radius: 3px;
+    padding: 5px 10px;
+    border: none;
+    color: white;
+    background-color: indigo;
+}
 /* 
 
     You can write your own styles here...
