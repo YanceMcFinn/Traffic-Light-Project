@@ -1,5 +1,18 @@
 body {
-    background-image:  ;
+    
+}
+
+#bgDiv {
+    z-index: -1;
+    position: absolute;
+    left: -15px;
+    top: -15px;
+    width: 130%;
+    height: 130%;
+    opacity: 70%;
+    background-image: url(https://i.imgur.com/osNRFCN.gif);
+    background-size: cover;
+    filter: blur(4px);
 }
 
 #trafficTop {
@@ -59,6 +72,15 @@ body {
     border: none;
     color: white;
     background-color: indigo;
+}
+
+#cycleButton {
+    margin: 0px 3px;
+    border-radius: 3px;
+    padding: 5px 10px;
+    border: none;
+    background-color: rgb(29, 119, 255);
+    color: white;
 }
 /* 
 
